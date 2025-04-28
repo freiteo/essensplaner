@@ -1,0 +1,28 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f4f4f4;
+}
+h1 {
+  color: #333;
+}
+.controls {
+  margin-bottom: 20px;
+}
+#calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+.day {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+.mittag, .abend {
+  margin-top: 10px;
+  padding: 5px;
+  background: #eef;
+  cursor: move;
+}
